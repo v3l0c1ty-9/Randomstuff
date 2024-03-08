@@ -30,6 +30,7 @@ def calc():
         y=int(input('2nd number'))
         print(f'The result is: {division(x,y)}')
     elif choice == 'exit':
+        print("Goodbye!")
         exit()
     else:
         print('Wrong input, please try again!')
